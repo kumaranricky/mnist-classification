@@ -11,21 +11,37 @@
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
 ## Problem Statement and Dataset
+The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
+
+![image](https://user-images.githubusercontent.com/75235293/190975763-7d3b7c0f-9458-41e9-a35c-aa063c4977da.png)
 
 
-## Neural Network Model
+## <br><br><br><br><br>Neural Network Model
+![Screenshot (423)](https://user-images.githubusercontent.com/75243072/191222827-1d87adfd-172e-41c9-af5f-6c6cfdd7d0ac.png)
 
 
 
 ## DESIGN STEPS
-
-### STEP 1:
-
+### STEP-1:
+Import tensorflow and preprocessing libraries
 ### STEP 2:
-
+Download and load the dataset
 ### STEP 3:
-
-Write your own steps
+Scale the dataset between it's min and max values
+### STEP 4:
+Using one hot encode, encode the categorical values
+### STEP-5:
+Split the data into train and test
+### STEP-6:
+Build the convolutional neural network model
+### STEP-7:
+Train the model with the training data
+### STEP-8:
+Plot the performance plot
+### STEP-9:
+Evaluate the model with the testing data
+### STEP-10:
+Fit the model and predict the single input
 
 ## PROGRAM
 ```python
@@ -99,19 +115,20 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 ```
 
 
-## OUTPUT
+## <br>OUTPUT
 
 ### TrainingLoss, Validation Loss Vs Iteration Plot
 ![Screenshot (418)](https://user-images.githubusercontent.com/75243072/190918454-60c012c1-778b-4c95-af31-ffcf1d8b031f.png)
  
 
 ### Classification Report
-![Screenshot (415)](https://user-images.githubusercontent.com/75243072/190918470-9ff5bf7e-5dc5-4356-8b73-c2b4a8dbcba0.png)
+![Screenshot (415)](https://user-images.githubusercontent.com/75243072/191223852-21f52e95-ec09-496a-946c-ad5d1ddf5256.png)
 
 
 
 ### Confusion Matrix
-![Screenshot (417)](https://user-images.githubusercontent.com/75243072/190918475-57826fe7-cc4b-40f4-9a92-9c295481bb1d.png)
+![Screenshot (417)](https://user-images.githubusercontent.com/75243072/191223916-ad1dbcf9-810a-4a71-b423-ae4f7332723b.png)
+
 
 
 
