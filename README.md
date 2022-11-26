@@ -1,6 +1,6 @@
 ### EXP NO: 03
 
-### .
+### Date:19.09.2022
 
 # <p align = "center"> Convolutional Deep Neural Network for Digit Classification </p>
 
@@ -126,7 +126,7 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 
 
 
-### Confusion Matrix
+### <br><br><br><br><br><br><br>Confusion Matrix
 ![Screenshot (417)](https://user-images.githubusercontent.com/75243072/191223916-ad1dbcf9-810a-4a71-b423-ae4f7332723b.png)
 
 
